@@ -1,0 +1,513 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="ja" xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#"
+      xmlns:fb="http://www.facebook.com/2008/fbml" xmlns="">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>ページが見つからないのです。 - ニコニコ大百科</title>
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta name="format-detection" content="telephone=no,email=no">
+<meta name="viewport" content="width=device-width">
+<meta name="description" content="(株)ドワンゴが運営するあらゆる言葉についての記事を閲覧・編集したり、コメントをしたりするサイトです。"/>
+<meta property="og:title" content="ニコニコ大百科"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://dic.nicovideo.jp/"/>
+<meta property="og:image" content="https://dic.nicovideo.jp/img/og_b.jpg"/>
+<meta property="og:description" content="(株)ドワンゴが運営するあらゆる言葉についての記事を閲覧・編集したり、コメントをしたりするサイトです。"/>
+<meta property="og:site_name" content="ニコニコ大百科"/>
+<meta property="og:locale" content="ja_JP" />
+<link rel="stylesheet" type="text/css" href="/css/nicopedia_style.css?s=202104021457">
+<link rel="stylesheet" type="text/css" href="/ndb.css?s=202104021457" id="maincss">
+<link id="pillcss" rel="stylesheet" type="text/css" href="/css/pill.css?s=202104021457" disabled>
+<link id="jqplotcss" rel="stylesheet" type="text/css" href="/css/jquery.jqplot.min.css?s=202104021457" disabled>
+<link rel="search" type="application/opensearchdescription+xml" title="ニコニコ大百科" href="/opensearch.xml">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','gaDirect');
+  gaDirect('create', 'UA-4462716-1', 'auto');
+  gaDirect('send', 'pageview');
+</script>
+<meta name="robots" content="noindex,nofollow">
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','NicoGoogleTagManagerDataLayer','GTM-KXT7G5G');</script>
+<!-- End Google Tag Manager -->
+<script type="text/javascript" src="/js/nicopedia2014102201.js?s=202104021457"></script>
+<script type="text/javascript">
+  $(function(){
+      if($.cookie('maincss')) {
+          $("#maincss").attr({href:$.cookie('maincss') + '?s=202104021457'});
+          if($.cookie('maincss') == '/nd2.css') {
+              $('#maincss_ndx').css('display', '');
+          }else if($.cookie('maincss') == '/ndx.css'){
+              $('#maincss_nd2').css('display', '');
+          }
+      }else{
+          maincss('/nd2.css');
+      }
+  });
+  function maincss(cssurl){
+      $('#maincss').attr({href:cssurl + '?s=202104021457'});
+      $.cookie('maincss',cssurl,{expires:30,path:'/'});
+      if($.cookie('maincss') == '/nd2.css') {
+          $('#maincss_nd2').css('display', 'none');
+          $('#maincss_ndx').css('display', '');
+      }else if($.cookie('maincss') == '/ndx.css'){
+          $('#maincss_ndx').css('display', 'none');
+          $('#maincss_nd2').css('display', '');
+      }
+  }
+</script>
+<script type="text/javascript">
+// <![CDATA[
+var url   = location.href;
+params    = url.split("?");
+paramms   = params[1] ? params[1].split("&") : [];
+var paramArray = [];
+for ( i = 0; i < paramms.length; i++ ) {
+    neet = paramms[i].split("=");
+    paramArray.push(neet[0]);
+    paramArray[neet[0]] = neet[1];
+}
+if ( paramArray["v"] == "pc" && (window.navigator.userAgent.indexOf('Googlebot') < 0)) {
+$.cookie('vdev','pc',{expires:30,path:'/'});
+}
+// ]]>
+</script>
+<script type="text/javascript">
+</script>
+<script type="text/javascript" src="/js/jquery.scrollUp.js"></script>
+<script type="text/javascript">
+// <![CDATA[
+$(function () {
+    $.scrollUp();
+});
+// ]]>
+</script>
+<script type='text/javascript'>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') +
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script>
+
+<script type='text/javascript'>
+var ua = {};
+ua.name = window.navigator.userAgent.toLowerCase();
+ua.isiPhone = ua.name.indexOf('iphone') >= 0;
+ua.isiPod = ua.name.indexOf('ipod') >= 0;
+ua.isiPad = ua.name.indexOf('ipad') >= 0;
+ua.isAndroid = ua.name.indexOf('android') >= 0;
+ua.isSP = (ua.isiPhone || ua.isiPod || ua.isiPad || ua.isAndroid);
+</script>
+
+<script type="text/javascript" charset="utf-8" src="https://res.ads.nicovideo.jp/assets/js/ads2.js?ref=dic"></script>
+</head>
+
+<body id="basebody">
+<!-- google_ad_section_start(weight=ignore) -->
+<div id="CommonHeader"></div>
+<script>
+if ($.cookie('login') >= 't') {
+  ulogin = true;
+  uid = $.cookie('uid');
+  uid_dir = Math.floor(uid/10000);
+  icon_url = 'https://secure-dcdn.cdn.nimg.jp/nicoaccount/usericon/s/'+uid_dir+'/'+uid+'.jpg';
+  var img = new Image();
+  img.src = icon_url;
+  img.onerror = function() {
+    icon_url = '';
+  }
+  uname = $.cookie('uname');
+  if ($.cookie('uprem') == 'n') {
+    uprem = false;
+  } else {
+    uprem = true;
+  }
+} else {
+  ulogin = false;
+  uid = undefined;
+  icon_url = '';
+  uname = '';
+  uprem = false;
+}
+if ($.cookie('maincss') == '/ndx.css') {
+  bg_label_str = '背景をデフォルトに切り替える'
+  bg_href_str = location.pathname+'?commonheader_bg_default'+location.hash
+} else {
+  bg_label_str = '背景を木目に切り替える'
+  bg_href_str = location.pathname+'?commonheader_bg_mokume'+location.hash
+}
+window.onCommonHeaderReady = function(commonHeader) {
+  commonHeader.mount('#CommonHeader', {
+    frontendId: 107,
+    site: 'nicodic',
+    nextUrl: '/',
+    sub: '',
+    user: {
+      isLogin: ulogin,
+      id: uid,
+      nickname: uname,
+      iconUrl: icon_url,
+      isPremium: uprem
+    },
+    customization: {
+      cmnhdRef: {
+        page: ''
+      },
+      nextUrl: '/',
+      logoutNextUrl: '/',
+      mypageUrl: 'https://dic.nicovideo.jp/p/my?from=top_menupc',
+      helpLink: {
+        href: 'https://dic.nicovideo.jp/a/%E3%83%8B%E3%82%B3%E3%83%8B%E3%82%B3%E5%A4%A7%E7%99%BE%E7%A7%91%3A%E3%83%98%E3%83%AB%E3%83%97?from=top_menupc'
+      },
+      size: {
+        maxWidth: '1045px',
+        minWidth: '1045px'
+      },
+      userPanelLinks: [
+        {
+          label: 'ウォッチリスト',
+          href: 'https://dic.nicovideo.jp/p/my/watchlist/rev_or_res_created/desc?from=top_menupc'
+        },
+        {
+          label: '記事の新規作成',
+          href: 'https://dic.nicovideo.jp/p/article_create?from=top_menupc'
+        },
+        {
+          label: '編集履歴',
+          href: 'https://dic.nicovideo.jp/p/my/rev_list?from=top_menupc'
+        },
+        {
+          label: '急上昇ワード改',
+          href: 'https://dic.nicovideo.jp/rank/trend/0/20/all/all?from=top_menupc'
+        },
+        {
+          label: '大百科ガイド',
+          href: 'https://dic.nicovideo.jp/a/%E3%83%8B%E3%82%B3%E3%83%8B%E3%82%B3%E5%A4%A7%E7%99%BE%E7%A7%91%3A%E3%82%AC%E3%82%A4%E3%83%89%E3%83%96%E3%83%83%E3%82%AF?from=top_menupc'
+        },
+        {
+          label: '利用規約',
+          href: 'https://dic.nicovideo.jp/d/html/tos/?from=top_menupc'
+        },
+        {
+          label: '削除依頼掲示板',
+          href: 'https://dic.nicovideo.jp/a/%E3%83%8B%E3%82%B3%E3%83%8B%E3%82%B3%E5%A4%A7%E7%99%BE%E7%A7%91%3A%E5%89%8A%E9%99%A4%E4%BE%9D%E9%A0%BC%E6%8E%B2%E7%A4%BA%E6%9D%BF?from=top_menupc',
+          target: '_blank'
+        },
+        {
+          label: '個人情報保護方針',
+          href: 'https://dwango.co.jp/managerial/personal.html?from=top_menupc',
+          target: '_blank'
+        },
+        {
+          label: bg_label_str,
+          href: bg_href_str
+        }
+      ]
+    }
+  });
+  commonHeader.on('commonHeader:linkClick', function(e) {
+    switch(e.href.split('?')[1].split('&')[0]){
+      case 'commonheader_bg_default':
+        maincss("/nd2.css");
+        break;
+      case 'commonheader_bg_mokume':
+        maincss("/ndx.css");
+        break;
+    }
+  });
+};
+</script>
+<div id="container">
+  <div id="contents">
+    <div id="header">
+        <h1 class="header-logo">
+          <a href="https://dic.nicovideo.jp/?from=header">ニコニコ大百科</a>
+        </h1>
+        <form action="//www.google.co.jp/cse" id="cse-search-form" target="_blank" style="display: none;">
+          <div class="search-dropdown-wrapper">
+            <select name="search_category" class="search-cat" id="cse-search-cat" onchange="onChangeSearchCat(this)">
+              <option value="al">単語・生放送記事</option>
+              <option value="a">単語記事</option>
+              <option value="v">動画記事</option>
+              <option value="i">商品記事</option>
+              <option value="u">ユーザー記事</option>
+              <option value="c">コミュ記事</option>
+              <option value="l">生放送記事</option>
+              <option value="all">全記事</option>
+              <option value="oekaki">お絵カキコ</option>
+              <option value="mml">ピコカキコ</option>
+              <option value="cse">Googleｶｽﾀﾑ</option>
+            </select>
+            <select name="query_type" class="search-type" disabled>
+            </select>
+          </div>
+          <input type="hidden" name="cx" value="partner-pub-6322315354375602:ii0xt9aqbkq" />
+          <input type="hidden" name="ie" value="UTF-8" />
+          <div class="search-box-wrapper">
+            <input type="text" name="q" class="search-box" id="cse-search-box" />
+            <input type="submit" name="sa" alt="検索" class="search-btn">
+          </div>
+        </form>
+        <script type="text/javascript" src="//www.google.co.jp/cse/brand?form=cse-search-form&amp;lang=ja" async defer></script>
+
+        <form id="search-form" onsubmit="return onSubmitSearch()">
+          <div class="search-dropdown-wrapper">
+            <select class="search-cat search-dropdown header-search" id="search-cat" onchange="onChangeSearchCat(this)">
+              <option value="al">単語・生放送記事</option>
+              <option value="a">単語記事</option>
+              <option value="v">動画記事</option>
+              <option value="i">商品記事</option>
+              <option value="u">ユーザー記事</option>
+              <option value="c">コミュ記事</option>
+              <option value="l">生放送記事</option>
+              <option value="all">全記事</option>
+              <option value="oekaki">お絵カキコ</option>
+              <option value="mml">ピコカキコ</option>
+            </select>
+            <select name="query_type" class="search-dropdown" id="search-dropdown">
+              <option value="t">タイトル</option>
+              <option value="b">本文（記事）</option>
+              <option value="a">タイトル・本文</option>
+            </select>
+          </div>
+          <div class="search-box-wrapper">
+            <input type="text" value="" class="search-box" id="search-box">
+            <input type="submit" alt="検索" class="search-btn">
+          </div>
+        </form>
+        <script>
+          function onSubmitSearch() {
+            if (!$('#search-box').val().trim().length) {
+              return false;
+            }
+            $('#search-form').attr('action', '/s/' + $('#search-cat').val() + '/' + $('#search-dropdown').val() + '/' + encodeURIComponent($('#search-box').val()) + '/rev_created/desc/1-');
+          }
+          function onChangeSearchCat(search_cat) {
+            var search_cat_value = search_cat.options[search_cat.selectedIndex].value;
+            var search_dropdown = document.getElementById('search-dropdown');
+            if(search_cat_value == 'oekaki' || search_cat_value == 'mml') {
+              search_dropdown.options[1].text = '記事名';
+              search_dropdown.options[2].text = 'タイトル・記事名';
+            } else {
+              search_dropdown.options[1].text = '本文（記事）';
+              search_dropdown.options[2].text = 'タイトル・本文';
+            }
+          }
+        </script>
+
+        <div id="dic_pc_468x60_north" style="width: 468px;height: 60px;display:flex;"></div>
+      <script type="text/javascript" charset="utf-8">
+          new Ads.Advertisement({
+              zone: 1236
+          }).set('dic_pc_468x60_north');
+      </script>
+    </div>
+
+    <div id="main">
+
+<!-- google_ad_section_end -->
+<!-- google_ad_section_start -->
+<!-- 記事ページ用広告 -->
+<div class="ad-bannar-maincolumn-top">
+<div id="dic_pc_728x90_north_2nd">
+</div>
+<script type="text/javascript" charset="utf-8">
+    new Ads.Advertisement({
+        zone: 1082
+    }).set('dic_pc_728x90_north_2nd');
+</script>
+</div>
+      <div class="st-box">
+  <div class="st-box_contents st-box_spaceBottom-long">
+    <div class="content" align="center" style="padding: 150px 10px">
+      <img src="/img/text_404_01.gif" alt="ページが見つからないのです。" width="343" height="45"><br>
+      <img src="/img/img_404.gif" width="150" height="125"><br>
+      <img src="/img/text_404_02.gif" alt="お探しのページが見つからない予感です…。
+      URLに間違いがないか、もう一度お確かめ下さい。" width="343" height="69"><br>
+    </div>
+  </div>
+</div>
+
+<!-- google_ad_section_end -->
+<!-- google_ad_section_start(weight=ignore) -->
+</div>
+  <!-- Right menu -->
+  <div id="right-column">
+    <div class="st-box_side st-box_space-bottom side-spaceBottom"><h2 class="st-box_heading st-box_heading-pushword">急上昇ワード改</h2><div id="nicodicrank_box" class="st-box_side-contents"><div class="side-pushword_update">2021/04/12(月)09時00分 現在</div><ul class="side-pushword_list"><li><div class="side-pushword_rank"></div><a href="/a/%E3%82%84%E3%81%8D%E3%81%86%E3%81%AE%E3%81%8A%E9%A6%AC%E3%81%95%E3%82%93" class="side-pushword_title">やきうのお馬さん</a><div class="side-pushword_counter"><div class='side-pushword_counter_clap'>1</div><div class='side-pushword_counter_comment'>6</div></div></li><li><div class="side-pushword_rank"></div><a href="/a/%E3%82%A6%E3%83%9E%E5%A8%98%E5%85%AC%E5%BC%8Fg1%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88" class="side-pushword_title">ウマ娘公式G1イラスト</a><div class="side-pushword_counter"><div class='side-pushword_counter_clap'>4</div><div class='side-pushword_counter_comment'>4</div></div></li><li><div class="side-pushword_rank"></div><a href="/a/%E7%8E%8B%E6%A7%98%E3%83%A9%E3%83%B3%E3%82%AD%E3%83%B3%E3%82%B0" class="side-pushword_title">王様ランキング</a><div class="side-pushword_counter"><div class='side-pushword_counter_clap'>9</div><div class='side-pushword_counter_comment'>264</div></div></li><li><div class="side-pushword_rank"></div><a href="/a/z%E4%B8%96%E4%BB%A3" class="side-pushword_title">Z世代</a><div class="side-pushword_counter"><div class='side-pushword_counter_clap'>2</div><div class='side-pushword_counter_comment'>4</div></div></li><li><div class="side-pushword_rank"></div><a href="/a/%E3%83%8A%E3%83%AA%E3%82%BF%E3%82%BF%E3%82%A4%E3%82%B7%E3%83%B3%28%E3%82%A6%E3%83%9E%E5%A8%98%29" class="side-pushword_title">ナリタタイシン(ウマ娘)</a><div class="side-pushword_counter"><div class='side-pushword_counter_clap'>3</div><div class='side-pushword_counter_comment'>12</div></div></li></ul><div class="nicodicrank-space_readmore"><a href="/rank/trend/0/20/all/all" class="nicodicrank-readmore">もっとみる</a></div></div></div>
+
+
+<div style="text-align:center; height:250px; width:300px; margin:0 0 4px 0;">
+<div id="dic_pc_300x250_east">
+</div>
+<script type="text/javascript" charset="utf-8">
+    new Ads.Advertisement({
+        zone: 1083
+    }).set('dic_pc_300x250_east');
+</script>
+</div>
+
+
+
+
+
+
+<div id="nicoad_right_pc">
+</div>
+<script>
+  $(function(){
+    HororeChuchuParero.nicoad_right_pc(37, "#nicoad_right_pc")
+  });
+</script>
+
+<div class="st-box_side st-box_space-bottom"><h2 class="st-box_heading st-box_heading-news">ニコニコニューストピックス</h2><div class="st-box_side-contents"><div class="side-newstopics_info"><a href="https://news.nicovideo.jp/watch/nw9208756?news_ref=dic_topics_topic" target="_blank" class="side-newstopics_contents" title="脳天から真っ二つに...？　「凄惨な現場」にしか見えないゾウさん滑り台が亀戸にあった">脳天から真っ二つに...？　「凄惨な現場」にしか見えないゾウさん滑り台が亀戸にあった</a></div><div class="side-newstopics_info"><a href="https://news.nicovideo.jp/watch/nw9209022?news_ref=dic_topics_topic" target="_blank" class="side-newstopics_contents" title="高橋ひかる、ミニ四駆にハマる「昨日もお店へ改造しに…」">高橋ひかる、ミニ四駆にハマる「昨日もお店へ改造しに…」</a></div><div class="side-newstopics_info"><a href="https://news.nicovideo.jp/watch/nw9208327?news_ref=dic_topics_topic" target="_blank" class="side-newstopics_contents" title="東京都、11日のコロナ新規感染者は421人　「まん防」適用を前に2月初旬の状態に">東京都、11日のコロナ新規感染者は421人　「まん防」適用を前に2月初旬の状態に</a></div><div class="side-newstopics_info"><a href="https://news.nicovideo.jp/watch/nw9208541?news_ref=dic_topics_topic" target="_blank" class="side-newstopics_contents" title="4万を超える回答で「伊是名夏子さんを支持しません」が97.3％!? Twitterで有志が行ったアンケートに反響">4万を超える回答で「伊是名夏子さんを支持しません」が97.3％!? Twitterで有志が行ったアンケートに反響</a></div><div class="side-newstopics_info"><a href="https://news.nicovideo.jp/watch/nw9208781?news_ref=dic_topics_topic" target="_blank" class="side-newstopics_contents" title="芸歴10年超、芸人たちの年収告白大会に共演者「夢、壊さないで」「やめてください！」と爆笑">芸歴10年超、芸人たちの年収告白大会に共演者「夢、壊さないで」「やめてください！」と爆笑</a></div><div class="side-newstopics_info"><a href="https://news.nicovideo.jp/watch/nw9208298?news_ref=dic_topics_topic" target="_blank" class="side-newstopics_contents" title="神々しさ増し増し！にゃんとも癒やされる「ねこ如来」カプセルトイ第2弾登場">神々しさ増し増し！にゃんとも癒やされる「ねこ如来」カプセルトイ第2弾登場</a></div><div class="side-newstopics_info"><a href="https://news.nicovideo.jp/watch/nw9208922?news_ref=dic_topics_topic" target="_blank" class="side-newstopics_contents" title="長州力、有吉弘行に嫉妬!?「まぁ悔しいなぁ」">長州力、有吉弘行に嫉妬!?「まぁ悔しいなぁ」</a></div><div class="side-newstopics_info"><a href="https://news.nicovideo.jp/watch/nw9207541?news_ref=dic_topics_topic" target="_blank" class="side-newstopics_contents" title="ジムを駆逐した“歴戦の勇士”ハイゴッグを労うパイロット・ミーシャ… 新型MS乗り換え間近の「戦士の休息」">ジムを駆逐した“歴戦の勇士”ハイゴッグを労うパイロット・ミーシャ… 新型MS乗り換え間近の「戦士の休息」</a></div><div class="side-newstopics_info"><a href="https://news.nicovideo.jp/watch/nw9207720?news_ref=dic_topics_topic" target="_blank" class="side-newstopics_contents" title="女性の自殺急増。それでも私たちは“死にたい気持ち”を肯定する＜yuzuka×小島美羽＞">女性の自殺急増。それでも私たちは“死にたい気持ち”を肯定する＜yuzuka×小島美羽＞</a></div></div></div>
+
+<div id="dic_pc_300x250_east_2nd">
+</div>
+<script type="text/javascript" charset="utf-8">
+  new Ads.Advertisement({
+    zone: 1107
+  }).set('dic_pc_300x250_east_2nd');
+</script>
+
+<div style="text-align:center; width:300px; margin:0 0 5px 0;">
+<div class="twitter_nicopedia">
+  <p>
+    <a href="https://twitter.com/nico_nico_pedia" target="_blank" rel="noopener">‎@nico_nico_pedia</a>
+    <span>の</span>ツイート
+  </p>
+</div>
+<a class="twitter-timeline"  href="https://twitter.com/nico_nico_pedia" data-widget-id="294133446031310849">@nico_nico_pediaさんのツイート</a>
+<div class="twitter-forrow">
+  <a href="https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fdic.nicovideo.jp%2F&ref_src=twsrc%5Etfw&screen_name=nico_nico_pedia&tw_p=followbutton" class="twitter-forrow-button">
+    <div>@nico_nico_pediaをフォロー</div>
+  </a>
+</div>
+</div>
+
+<div class="floatPanel" id="floatPanel">
+<div id="dic_pc_300x600_size_follow_east_3rd" style="text-align:center; margin-bottom: 4px; padding: 0;"></div>
+</div>
+
+  </div>
+  <!--// Right menu -->
+  <!--// Footer -->
+</div>
+<!-- google_ad_section_end -->
+<script type="text/javascript"><!--
+$(function() {
+  var q;
+  if (q = $('#mobile-qr-code')) {
+    var u = q.text() + "?from=qrcode";
+    HororeChuchuParero.show_qr_code(q.empty(), u, 150);
+  }
+});
+//-->
+</script>
+<input type="hidden" id="gap_offset" value="0" />
+<script type="text/javascript" src="/js/stickyfill.min.js?1901080001"></script>
+<script type="text/javascript">
+  window.addEventListener('load', function (e) {
+    if ($('#right-column').height() < $('#main').height()) {
+      $('#right-column').css('height', $('#main').height() + 'px');
+    }
+    Stickyfill.add($('#floatPanel'));
+  });
+</script>
+<script type="text/javascript" charset="utf-8">
+    new Ads.Advertisement({
+        zone: 1084
+    }).set('dic_pc_300x600_size_follow_east_3rd');
+</script>
+
+<div style="position:relative;width:1054px;">
+<div id="LEFT_AD_ELEMENT" style="display:none;position:absolute;top:-128px;overflow:hidden;margin-right:4px;"></div>
+<div id="RIGHT_AD_ELEMENT" style="display:none;position:absolute;top:-128px;overflow:hidden;margin-left:4px;"></div>
+</div>
+<script type="text/javascript">
+    Ads.Sidewall.setParameters({
+        zoneIds: [1151, 1152],                                // 左右の掲載位置（ゾーン）のIdを指定
+        locations: ['LEFT_AD_ELEMENT', 'RIGHT_AD_ELEMENT'],   // 左右のdivタグのidを指定
+        contentsWidth: 1045,                                  // 左右のサイドウォール間の距離を指定
+    });
+    Ads.Sidewall.invoke();
+</script>
+  <script type="text/javascript" src="/js/nicopedia_pc_defer.js?s=202104021457" defer></script>
+<script type="text/javascript" src="https://dcdn.cdn.nimg.jp/nicodic/js/piko/201907111754/pikokakiko.js" defer></script>
+<script src="https://platform.twitter.com/widgets.js" charset="utf-8" async></script>
+</div>
+</div>
+<footer>
+  <div class="footer-menu">
+    <div class="footer-counter-menu">
+      <ul>
+        <li>記事：<span id="count-all-articles">471938</span></li>
+        <li>レス：<span id="count-all-reses">22346982</span></li>
+        <li>お絵カキコ：<span id="count-all-oekakis">225818</span></li>
+        <li>ピコカキコ：<span id="count-all-mmls">17768</span></li>
+      </ul>
+    </div>
+    <div class="footer-articles-menu">
+      <dl>
+        <dt>50音順全</dt>
+        <dd><a href="/m/a/a">単語記事</a></dd>
+        <dd><a href="/m/a/l">生放送記事</a></dd>
+      </dl>
+      <dl>
+        <dt>最近更新された</dt>
+        <dd><a href="/m/u/a/1-">単語記事</a></dd>
+        <dd><a href="/m/u/v/1-">動画記事</a></dd>
+        <dd><a href="/m/u/i/1-">商品記事</a></dd>
+        <dd><a href="/m/u/u/1-">ユーザー記事</a></dd>
+        <dd><a href="/m/u/c/1-">コミュ記事</a></dd>
+        <dd><a href="/m/u/l/1-">生放送記事</a></dd>
+        <dd><a href="/m/n/res/1-">書き込み</a></dd>
+        <dd><a href="/m/n/oekaki/1-">お絵カキコ</a></dd>
+        <dd><a href="/m/n/mml/1-">ピコカキコ</a></dd>
+      </dl>
+    </div>
+    <div class="footer-info-menu">
+      <ul>
+        <li><a href="https://dic.nicovideo.jp/">トップページ</a></li>
+        <li><a href="https://www.nicovideo.jp/" target="_blank">ニコニコ</a></li>
+        <li><a href="https://dic.nicovideo.jp/d/html/tos/">利用規約</a></li>
+        <li><a href="https://dwango.co.jp/managerial/personal.html" target="_blank">個人情報保護方針</a></li>
+        <li><a href="https://dic.nicovideo.jp/id/4135735" target="_blank">お問い合わせ</a></li>
+        <li><a href="https://dic.nicovideo.jp/id/5511416" target="_blank">削除依頼掲示板</a></li>
+        <li><a href="https://site.nicovideo.jp/sales_ads/" target="_blank">広告出稿のお問い合せ</a></li>
+      </ul>
+    </div>
+    <small class="management-source">運営元：<a href="https://dwango.co.jp/" target="_blank" rel="noopener">ドワンゴ</a></small>
+    <span class="system-requirements">推奨環境：Edge, Safari, Chrome, Firefox, Opera いずれかの最新版</span>
+  </div>
+</footer>
+
+<script>
+  window.onload = function() {
+    document.getElementById('pillcss').removeAttribute('disabled');
+    document.getElementById('jqplotcss').removeAttribute('disabled');
+  }
+</script>
+<script type="text/javascript" src="/js/autocomplete.min.js?s=202104021457"></script>
+<script type="text/javascript" src="https://secure-dcdn.cdn.nimg.jp/common-header/res/2.0.2/pc/CommonHeaderLoader.min.js"></script>
+</body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KXT7G5G"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+</html>
